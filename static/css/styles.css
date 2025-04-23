@@ -1,0 +1,63 @@
+.neon-card * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #121212; 
+    font-family: Arial, sans-serif;
+}
+
+.neon-card {
+    background: rgba(30, 30, 30, 0.9); 
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px rgba(13, 202, 240, 0.4); 
+    width: 100%;
+    max-width: 450px;
+    padding: 2rem;
+}
+
+
+.neon-card .neon-title {
+    color: #0dcaf0;
+    text-shadow: 0px 0px 5px rgba(13, 202, 240, 0.4);
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+
+.neon-card .neon-input {
+    background-color: #1f1f1f;
+    color: #ffffff; 
+    border: 1px solid #0dcaf0;
+    border-radius: 5px;
+    padding: 0.75rem; 
+    margin-top: 0.5rem;
+}
+
+.neon-card .neon-input:focus {
+    border-color: #0dcaf0;
+    box-shadow: 0px 0px 5px rgba(13, 202, 240, 0.4); 
+}
+
+
+.neon-card .neon-btn {
+    background-color: rgb(13, 202, 240);
+    color: #121212;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 0.75rem;
+    margin-top: 1.5rem;
+    transition: background-color 0.3s;
+}
+
+.neon-card .neon-btn:hover {
+    background-color: #0bb8db;
+}
+
+.form-control::placeholder {
+    color: #0dcaf0; 
+    opacity: 1;
+}
